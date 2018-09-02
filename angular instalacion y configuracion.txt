@@ -1,0 +1,24 @@
+instalacion de angular
+
+1. tener instalado node js
+2. npm install -g @angular/cli
+ 
+3. Crear un proyecto angular 
+ng new angular-tour-of-heroes
+
+4. Desplegar la aplicacion.
+cd angular-tour-of-heroes
+ng serve --open
+
+5.Archivos principales que se crean para cada componente 
+
+app.component.ts— the component class code, written in TypeScript.
+app.component.html— the component template, written in HTML.
+app.component.css— the component's private CSS styles.
+
+GENERAR COMPONENTES AUTOMATICAMENTE
+ng generate component heroes
+
+listar 
+
+<li *ngFor="let hero of heroes">
